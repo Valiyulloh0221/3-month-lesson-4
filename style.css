@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body{
+    background: #FFFFFF;
+    position: relative;
+}
+header{
+    height: 71px;
+    padding: 22px 220px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h5{
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #1E1D1D;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.links a{
+    color: #8B8E99 !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.shop-icons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#hero-section{
+    padding: 132px 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero-section h2{
+    color: #1E1D1D;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125.5%;
+}
+#hero-section p{
+    padding-top: 10px;
+    color: #8B8E99 !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.5%;
+    padding-bottom: 45px;
+}
+input{
+    outline: none;
+}
+#hero-section input{
+    border: 0.5px solid #1E1D1D;
+    width: 443px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+#hero-section input::placeholder{
+    color: rgba(139, 142, 153, 0.70);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.5%;
+}
+#hero-section button{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.5%;
+    width: 112px;
+    height: 45px;
+    border-color: #3858D6;
+    background: #3858D6;
+    border-radius: 10px;
+    position: absolute;
+    top: 652px;
+    margin-left: 322px;
+}
+.cards{
+    padding: 73px 220px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    margin-bottom: 130px;
+    padding-left: 41px;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    width: 354px;
+    height: 239px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #F6F6F6;
+}
+.card h4{
+    color: #1E1D1D !important;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card p{
+    color: #8B8E99 !important;
+    padding-top: 9px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ortassilka p{
+    color: #3858D6 !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ortayozuv{
+    color: #1E1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.imgcard{
+    padding: 28px 40px;
+    width: 334px;
+    height: 337px;
+    flex-shrink: 0;
+    background: #F6F6F6;
+}
+.yozuvcards{
+    padding-top: 11px;
+}
+.yozuvcard{
+    width: 334px;
+}
+.yozuvcard h4{
+    color: #1E1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.yulduzlar{
+    margin-left: 105px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.narx{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+}
+.narx p{
+    text-decoration: line-through;
+    color: #8B8E99 !important;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.5%;
+}
+.narx h5{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.5%;
+}
+.soatnarx button{
+    margin-top: 68px;
+    margin-left: 850px;
+    margin-bottom: 130px;
+    border-radius: 10px;
+    background: #3858D6;
+    width: 196px;
+    height: 46px;
+    flex-shrink: 0;
+    border-color: #3858D6;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.twocards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.twocard{
+    padding-left: 34px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    width: 524px;
+    height: 239px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #F6F6F6;
+}
+.twocard h5{
+    color: #1E1D1D !important;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.twocard p{
+    padding-top: 10px;
+    padding-bottom: 9px;
+    color: #8B8E99 !important;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.twocard svg{
+    filter: invert(11%) sepia(13%) saturate(6%) hue-rotate(324deg) brightness(93%) contrast(98%) !important;
+}
+.narsa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+#dark-light{
+    width: 48px;
+    height: 48px;
+    background: url(./images/moon2.png);
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    left: 60px;
+}
+.dark{
+    background: #383638;
+}
+.dark *{
+    color: #FFFFFF !important;
+}
+.dark svg{
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(65deg) brightness(111%) contrast(101%);
+}
+.dark #hero-section{
+    border-bottom: 1px solid #fff;
+}
+.dark #dark-light{
+    background: url(./images/sun.png);
+    background-repeat: no-repeat;
+}
+#navbar-responsive.open {
+    left: 0;
+}
+.dark .menu-btn span{
+    background-color: #fff;
+}
+  
+.menu-btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    display: none;
+}
+  
+.menu-btn span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: flex;
+    }
+    .shop-icons{
+        position: absolute;
+        left: -100%;
+        display: block;
+    }
+    header{
+        padding: 22px 50px;
+    }
+    #navbar-responsive {
+        position: fixed;
+        top: 52px;
+        bottom: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        transition: 0.5s;
+    }
+    #hero-section{
+        padding: 132px 50px;
+    }
+    #hero-section img{
+        width: 180px;
+        height: 270px;
+    }
+    #hero-section button{
+        top: 587px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .twocards{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
